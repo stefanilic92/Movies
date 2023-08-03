@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Watch Movies Online</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Author" content="Stefan Ilic">
+        <meta name="Description" content="Watch movies online - example JavaScript">
+        <meta name="keywords" content="Html, Css, Js, test, movies, online, watch">
+        <link href="Normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1> Watch Movies Online </h1>
+
+        <div class="container">
+            <div class="items">
+                <h2>Pick a movie:</h2>
+
+                <div class="single-item">
+                    <img src="img/harry_potter.jpg" alt=""/>
+                    <div class="si-content">
+                        <h3>Harry Potter</h3>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="action">
+                        <button onclick="addToCart(this)">Watch online</button>
+                    </div>
+                </div>
+                
+                <div class="single-item">
+                    <img src="img/lord_of_the_rings.jpg" alt=""/>
+                    <div class="si-content">
+                        <h3>Lord of the Rings</h3>
+                        <p class="price">$20</p>
+                    </div>
+                    <div class="action">
+                        <button onclick="addToCart(this)">Watch online</button>
+                    </div>
+                </div>
+                
+                <div class="single-item">
+                    <img src="img/end_game.jpeg" alt=""/>
+                    <div class="si-content">
+                        <h3>Avengers</h3>
+                        <p class="price">$30</p>
+                    </div>
+                    <div class="action">
+                        <button onclick="addToCart(this)">Watch online</button>
+                    </div>
+                </div>
+                <div class="single-item">
+                    <img src="img/avatar.jpg" alt=""/>
+                    <div class="si-content">
+                        <h3>Avatar</h3>
+                        <p class="price">$30</p>
+                    </div>
+                    <div class="action">
+                        <button onclick="addToCart(this)">Watch online</button>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="cart">
+                <h2>Shoping Cart</h2>
+
+                <div class="cart-items"></div>
+
+                <div class="total"></div>
+            </div>
+            
+        </div>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
